@@ -53,7 +53,7 @@ class PhpcrDriver extends \elFinderVolumeDriver
     /**
      * @var array
      */
-    protected $options;
+    private $options;
 
     /**
      * Constructor.
