@@ -33,7 +33,7 @@
         "helios-ag/fm-elfinder-bundle": "When using the elFinder media browser"
     },
     "conflict": {
-        "helios-ag/fm-elfinder-bundle": "<9.0"
+        "helios-ag/fm-elfinder-bundle": "<8.0"
     },
     "autoload": {
         "psr-4": {
