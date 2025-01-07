@@ -15,7 +15,7 @@
             <argument type="service" id="cmf_media.persistence.phpcr.manager" />
             <argument type="service" id="liip_imagine.cache.manager" />
             <argument>%cmf_media.imagine.all_filters%</argument>
-            <call method="setRequest"><argument type="service" id="request" on-invalid="null" strict="false"/></call>
+            <call method="setRequest"><argument type="service" id="request" on-invalid="null"/></call>
         </service>
 
     </services>
