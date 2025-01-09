@@ -11,7 +11,7 @@
 
 namespace Symfony\Cmf\Bundle\MediaBundle\Templating\Helper;
 
-use Liip\ImagineBundle\Templating\Helper\ImagineHelper;
+use Liip\ImagineBundle\Templating\Helper\FilterHelper;
 use Symfony\Cmf\Bundle\MediaBundle\FileInterface;
 use Symfony\Cmf\Bundle\MediaBundle\ImageInterface;
 use Symfony\Cmf\Bundle\MediaBundle\MediaManagerInterface;
@@ -31,7 +31,7 @@ class CmfMediaHelper extends Helper
      * @param UrlGeneratorInterface $router        A Router instance
      * @param ImagineHelper         $imagineHelper Imagine helper to use if available
      */
-    public function __construct(MediaManagerInterface $mediaManager, UrlGeneratorInterface $router, ImagineHelper $imagineHelper = null)
+    public function __construct(MediaManagerInterface $mediaManager, UrlGeneratorInterface $router, FilterHelper $imagineHelper = null)
     {
         $this->mediaManager = $mediaManager;
         $this->generator = $router;
